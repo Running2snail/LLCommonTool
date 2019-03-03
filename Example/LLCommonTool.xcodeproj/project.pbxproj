@@ -63,10 +63,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EFAFDE179C327365B5028E7 /* Pods_LLCommonTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLCommonTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66AFED10F6497225ED63556 /* Pods-LLCommonTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLCommonTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLCommonTool_Tests/Pods-LLCommonTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BF19C33D1900CFE132B04948 /* LLCommonTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LLCommonTool.podspec; path = ../LLCommonTool.podspec; sourceTree = "<group>"; };
+		BF19C33D1900CFE132B04948 /* LLCommonTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLCommonTool.podspec; path = ../LLCommonTool.podspec; sourceTree = "<group>"; };
 		C07E5B6EED2C73E885354934 /* Pods-LLCommonTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLCommonTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLCommonTool_Example/Pods-LLCommonTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C547DADA50E8CCF3FF2B877D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DCE7E3FF4CFFD9DB41B5A408 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C547DADA50E8CCF3FF2B877D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DCE7E3FF4CFFD9DB41B5A408 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = runningsnail;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 36H94N4GDC;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -497,6 +500,7 @@
 			baseConfigurationReference = C07E5B6EED2C73E885354934 /* Pods-LLCommonTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36H94N4GDC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLCommonTool/LLCommonTool-Prefix.pch";
 				INFOPLIST_FILE = "LLCommonTool/LLCommonTool-Info.plist";
@@ -512,6 +516,7 @@
 			baseConfigurationReference = 3E8E068E1089C0997E507BCA /* Pods-LLCommonTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36H94N4GDC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLCommonTool/LLCommonTool-Prefix.pch";
 				INFOPLIST_FILE = "LLCommonTool/LLCommonTool-Info.plist";
