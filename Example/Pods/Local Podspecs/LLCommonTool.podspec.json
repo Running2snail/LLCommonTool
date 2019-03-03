@@ -1,0 +1,22 @@
+{
+  "name": "LLCommonTool",
+  "version": "0.1.0",
+  "summary": "A short description of LLCommonTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/runningsnail/LLCommonTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "runningsnail": "496668219@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/runningsnail/LLCommonTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LLCommonTool/Classes/**/*"
+}
