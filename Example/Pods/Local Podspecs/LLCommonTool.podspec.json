@@ -1,9 +1,9 @@
 {
   "name": "LLCommonTool",
-  "version": "0.1.0",
-  "summary": "A short description of LLCommonTool.",
+  "version": "0.3.0",
+  "summary": "LLCommonTool",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/runningsnail/LLCommonTool",
+  "homepage": "https://github.com/running2snail/LLCommonTool",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "runningsnail": "496668219@qq.com"
   },
   "source": {
-    "git": "https://github.com/runningsnail/LLCommonTool.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Running2snail/LLCommonTool.git",
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"

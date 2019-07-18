@@ -327,7 +327,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LLCommonTool_Example/Pods-LLCommonTool_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LLCommonTool_Example/Pods-LLCommonTool_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LLCommonTool/LLCommonTool.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -338,7 +338,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLCommonTool_Example/Pods-LLCommonTool_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LLCommonTool_Example/Pods-LLCommonTool_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E9D560B1A2F0F0A2D3081194 /* [CP] Check Pods Manifest.lock */ = {
