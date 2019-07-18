@@ -22,7 +22,6 @@
 #import "UIFont+MGFont.h"
 #import "UIImageView+MGWebImage.h"
 #import "UIAlertController+Init.h"
-#import "UIButton+Init.h"
 #import "UICollectionView+Register.h"
 #import "UIImage+Size.h"
 #import "UILabel+AttributedText.h"
