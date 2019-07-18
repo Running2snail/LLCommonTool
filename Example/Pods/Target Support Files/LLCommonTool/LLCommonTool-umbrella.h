@@ -31,7 +31,6 @@
 #import "UILabel+Init.h"
 #import "UILabel+Space.h"
 #import "UILabel+TextSize.h"
-#import "UIResponder+First.h"
 #import "UITableView+Register.h"
 #import "UITextField+Check.h"
 #import "UIView+AddSubview.h"

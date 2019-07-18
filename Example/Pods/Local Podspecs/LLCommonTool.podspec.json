@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LLCommonTool/Classes/**/*"
+  "source_files": "LLCommonTool/Classes/**/*",
+  "dependencies": {
+    "MJExtension": [
+      "3.0.16"
+    ],
+    "SDWebImage": [
+      "~> 5.0"
+    ]
+  }
 }
