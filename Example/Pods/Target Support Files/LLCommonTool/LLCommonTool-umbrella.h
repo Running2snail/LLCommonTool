@@ -21,8 +21,6 @@
 #import "UIColor+MGColor.h"
 #import "UIFont+MGFont.h"
 #import "UIImageView+MGWebImage.h"
-#import "JRSwizzle.h"
-#import "NSObject+Swizzling.h"
 #import "UIAlertController+Init.h"
 #import "UIButton+Init.h"
 #import "UICollectionView+Register.h"
@@ -35,7 +33,6 @@
 #import "UITextField+Check.h"
 #import "UIView+AddSubview.h"
 #import "UIView+Frame.h"
-#import "UIViewController+StatusBar.h"
 
 FOUNDATION_EXPORT double LLCommonToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char LLCommonToolVersionString[];
