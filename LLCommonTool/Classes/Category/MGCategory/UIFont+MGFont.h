@@ -1,30 +1,32 @@
 //
-//  UIFont+NLFont.h
-//  Cashier
+//  UIFont+MGFont.h
+//  MGYouXuan
 //
-//  Created by wanglonglong on 2019/1/4.
-//  Copyright © 2019年 杭州辛巴供应链管理有限公司. All rights reserved.
+//  Created by wangll on 2019/4/9.
+//  Copyright © 2019年 MeiGuang. All rights reserved.
 //
-
-/**设置系统的字体大小*/
-#define NLFont(size)           [UIFont systemFontOfSize:size]
-#define NLBoldFont(size)       [UIFont boldSystemFontOfSize:size]
-// 常规
-#define NLRegularFont(ize)     [UIFont fontOfPingFangSC_RegularWithSize:size]
-/** 极细体 */
-#define NLUltralightFont(size) [UIFont fontOfPingFangSC_UltralightWithSize:size]
-/** 纤细体 */
-#define NLThinFont(size)       [UIFont fontOfPingFangSC_ThinFontWithSize:size]
-/** 细体 */
-#define NLLightFont(size)      [UIFont fontOfPingFangSC_LightFontWithSize:size]
-// 中等
-#define NLMediumFont(size)     [UIFont fontOfPingFangSC_MediumFontWithSize:size]
-/** 中粗体 */
-#define NLSemiboldFont(size)   [UIFont fontOfPingFangSC_SemiboldWithSize:size]
 
 #import <UIKit/UIKit.h>
 
-@interface UIFont (NLFont)
+NS_ASSUME_NONNULL_BEGIN
+
+/**设置系统的字体大小*/
+#define MGFont(size)           [UIFont systemFontOfSize:size]
+#define MGBoldFont(size)       [UIFont boldSystemFontOfSize:size]
+// 常规
+#define MGRegularFont(size)     [UIFont fontOfPingFangSC_RegularWithSize:size]
+/** 极细体 */
+#define MGUltralightFont(size) [UIFont fontOfPingFangSC_UltralightWithSize:size]
+/** 纤细体 */
+#define MGThinFont(size)       [UIFont fontOfPingFangSC_ThinFontWithSize:size]
+/** 细体 */
+#define MGLightFont(size)      [UIFont fontOfPingFangSC_LightFontWithSize:size]
+// 中等
+#define MGMediumFont(size)     [UIFont fontOfPingFangSC_MediumFontWithSize:size]
+/** 中粗体 */
+#define MGSemiboldFont(size)   [UIFont fontOfPingFangSC_SemiboldWithSize:size]
+
+@interface UIFont (MGFont)
 
 /**
  *  苹方常规体
@@ -67,4 +69,7 @@
  */
 +(instancetype)fontOfPingFangSC_MediumFontWithSize:(CGFloat)fontSize;
 
+
 @end
+
+NS_ASSUME_NONNULL_END

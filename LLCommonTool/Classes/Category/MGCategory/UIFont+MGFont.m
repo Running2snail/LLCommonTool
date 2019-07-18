@@ -1,14 +1,14 @@
 //
-//  UIFont+NLFont.m
-//  Cashier
+//  UIFont+MGFont.m
+//  MGYouXuan
 //
-//  Created by wanglonglong on 2019/1/4.
-//  Copyright © 2019年 杭州辛巴供应链管理有限公司. All rights reserved.
+//  Created by wangll on 2019/4/9.
+//  Copyright © 2019年 MeiGuang. All rights reserved.
 //
 
-#import "UIFont+NLFont.h"
+#import "UIFont+MGFont.h"
 
-@implementation UIFont (NLFont)
+@implementation UIFont (MGFont)
 
 /**
  *  苹方极细体
@@ -43,7 +43,7 @@
  */
 +(instancetype)fontOfPingFangSC_ThinFontWithSize:(CGFloat)fontSize
 {
-   return [UIFont fontWithName:@"PingFangSC-Thin" size:fontSize];
+    return [UIFont fontWithName:@"PingFangSC-Thin" size:fontSize];
 }
 
 /**
@@ -63,7 +63,6 @@
 {
     return [UIFont fontWithName:@"PingFangSC-Medium" size:fontSize];
 }
-
 
 
 @end
